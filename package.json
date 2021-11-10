@@ -1,7 +1,6 @@
 {
   "name": "html_css",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "star": "node app.js"
@@ -10,5 +9,15 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulianSuarezQ/MercadoLiebre_dh.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JulianSuarezQ/MercadoLiebre_dh/issues"
+  },
+  "homepage": "https://github.com/JulianSuarezQ/MercadoLiebre_dh#readme",
+  "description": ""
 }
