@@ -4,6 +4,9 @@ app.use(express.static('public'));
 const path = require("path");
 
 
+const publicPath = path.resolve(__dirname, "./public");
+app.use(express.static(publicPath));
+
 app.listen(process.env.PORT, ()=>{
     console.log('Servidor funcionando');
 });
